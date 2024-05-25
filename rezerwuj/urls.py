@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from rezerwuj.views import AutoListView
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include('rezerwuj.urls'))#127.0.0.1:8000/rezerwuj
+    path("wypozyczalnia/", AutoListView.as_view(), name="wypozyczalnia-list"), # 127.0.0.1:8000/rezerwuj/wypozyczalnia
 ]
