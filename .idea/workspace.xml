@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04d7df2a-bb5f-4b12-af5e-ef749887d079" name="Changes" comment="new file">
-      <change afterPath="$PROJECT_DIR$/rezerwuj/templates/wypozyczalnia_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rezerwuj/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rezerwuj/templates/confirm_reservation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rezerwuj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rezerwuj/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rezerwuj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rezerwuj/views.py" afterDir="false" />
@@ -107,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716709448548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new file">
+      <option name="closed" value="true" />
+      <created>1716713351445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716713351445</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
