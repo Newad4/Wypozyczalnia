@@ -1,2 +1,6 @@
-{{ form }}
+<form action="{% url 'auto-confirm-reservation' auto_id %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Rezerwuj">
+</form>
 

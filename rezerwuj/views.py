@@ -29,9 +29,9 @@ def confirm_reservation(request, auto_id):
     if request.method == "POST":
         form = ConfirmReservationForm(request.POST)
         if form.is_valid():
-            pass
             # our logic create reservation
             # redirect
+            print("data ok")
         else:
             ValidationError("Form data invalid")
     else:
